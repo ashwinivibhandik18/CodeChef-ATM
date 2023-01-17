@@ -1,0 +1,12 @@
+
+#ATM
+
+x,y=map(float,input().split())
+x=int(x)
+if x%5==0:
+    if y>=x+.50:
+        print('{:.02f}'.format(y-x-0.50))
+    else:
+        print(y)
+else:
+    print(y)
